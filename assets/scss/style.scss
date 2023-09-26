@@ -1,0 +1,17 @@
+// vendors
+@import "normalize.css";
+@import "primevue/resources/primevue.min.css";
+@import "primevue/resources/themes/bootstrap4-light-blue/theme.css";
+@import "primeicons/primeicons.css";
+
+// abstract
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// base
+@import "base/generic";
+
+// components
+@import "components/container";
+@import "components/form";

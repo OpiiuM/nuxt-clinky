@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: $font-family;
+	font-size: 100%;
+
+	position: relative;
+	z-index: $z-index-html;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap);
+
+		@include resetting-vertical-indentation-of-last
+	}
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-medium);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-medium);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-medium);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+h5 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-medium);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-medium);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:not([class]) {
+		margin-bottom: rem($gap-small);
+
+		@include resetting-vertical-indentation-of-last;
+	}
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	@include list-reset;
+}

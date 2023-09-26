@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "#{$font-family-custom}-Regular";
+
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  font-display: swap;
+  src:
+    url("#{$font-path}#{$file-name}.woff2") format("woff2"),
+    url("#{$font-path}#{$file-name}.woff") format("woff"),;
+}
+
+@font-face {
+  font-family: "#{$font-family-custom}-Medium";
+
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  font-display: swap;
+  src:
+    url("#{$font-path}#{$file-name}.woff2") format("woff2"),
+    url("#{$font-path}#{$file-name}.woff") format("woff"),;
+}
+
+@font-face {
+  font-family: "#{$font-family-custom}-Bold";
+
+  font-family: $font-family-custom;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  font-display: swap;
+  src:
+    url("#{$font-path}#{$file-name}.woff2") format("woff2"),
+    url("#{$font-path}#{$file-name}.woff") format("woff"),;
+}
