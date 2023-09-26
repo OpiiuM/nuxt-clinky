@@ -1,0 +1,1 @@
+import{u as t,c as a,t as o,d as r,o as s}from"./entry.94cea480.js";const l={__name:"[id]",setup(n){const e=t();return(p,c)=>(s(),a("p",null,"profile - "+o(r(e).params.id)+" - page",1))}};export{l as default};
