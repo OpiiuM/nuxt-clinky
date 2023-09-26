@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.c27b6911.js";import{c as o,o as r}from"./entry.94cea480.js";const c={};function n(t,a){return r(),o("p",null,"notemarks - page")}const f=e(c,[["render",n]]);export{f as default};
